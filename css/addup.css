@@ -1,4 +1,4 @@
-#main-name{
+/* #main-name{
     text-align: center;
     font-size: 48px;
     line-height: 1em;
@@ -7,33 +7,24 @@
     position:relative; 
     left:20px;
     white-space:nowrap;
-}
-
-/* #main-move {
-    position:relative; 
-    bottom:50px;
 } */
-#main-role {
+
+/* #main-role {
     text-align: center;
     font-size: 16px;
     color: white;
     position:relative; 
     top:100px;
-}
+} */
 
 #info {
     text-transform: lowercase;
     /* color: white; */
 }
 
-#summary {
-    border-radius: 50%;
-    position:relative; 
-    left:100px;
-}
 
 .contact-info {
     position:relative; 
-    left:50px;
+    /* left:50px; */
     top:100px;
 }
