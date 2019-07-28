@@ -19,12 +19,24 @@
 
 #info {
     text-transform: lowercase;
-    /* color: white; */
+
 }
 
+#showme {
+    text-transform: lowercase;
+    display:none;
+}
 
 .contact-info {
     position:relative; 
     /* left:50px; */
     top:100px;
+}
+
+.nonewline {
+    white-space:nowrap;
+}
+
+.icon span {
+    cursor: pointer;
 }

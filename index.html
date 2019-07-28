@@ -60,11 +60,13 @@
 						<div class="row align-items-center">
 							<div class="col-lg-3">
 								<div class="story-title">
-									<h3 id="main-name" class="text-white">Xinyi Zhang</h3>
+									<!-- <h3 id="main-name" class="text-white">Xinyi Zhang</h3> -->
 									
-								<div class="contact-info">
+								<div id = "showme" class="contact-info">
 									<ul class="text-uppercase text-white">
-										<li id="info">Email: xyzhang510@gmail.com</li>
+										<li id="info"><p class="nonewline">
+											Email: xyzhang510@gmail.com
+										</p></li>
 										<li id="info">Phone: 5107177389</li>
 										<li id="info"> <br></li>
 										<li id="info">Twitter: 5107177389</li>
@@ -88,7 +90,7 @@
 									<p>I am a front-end developer. I can build a website with desiralbe view and responsive features.
 										I am good at bootstrap, responsive design and html, css, sass, jQuery(including its plungin), front-end 
 										technology. I am also an active team member, corporating with back-end engineer </p>
-									<a href="#" class="primary-btn d-inline-flex align-items-center"><span class="mr-10">Get Started</span><span class="lnr lnr-arrow-right"></span></a>
+									<a href="#" class="primary-btn d-inline-flex align-items-center"><span onclick="clickme()" class="mr-10">It's me</span><span class="lnr lnr-arrow-right"></span></a>
 								</div>
 								
 							</div>
@@ -104,7 +106,7 @@
 						<div class="col-md-4">
 							<div class="single-feature">
 								<div class="icon">
-									<span class="fa fa-github"></span>
+									<span onclick = "location='https://github.com/XxZhang2017/caloriesRecorder.git'" class="fa fa-github"></span>
 								</div>
 								<div class="desc text-center">
 										<h6 class="title text-uppercase">Calorie Recorder</h6>
@@ -115,7 +117,7 @@
 						<div class="col-md-4">
 								<div class="single-feature">
 									<div class="icon">
-										<span class="fa fa-github"></span>
+										<span onmouseover="this.style.cursor='hand'" onclick = "location='https://github.com/XxZhang2017/push_swap_my.git'" class="fa fa-github"></span>
 									</div>
 									<div class="desc text-center">
 										<h6 class="title text-uppercase">PUSH SWAP</h6>
@@ -128,7 +130,7 @@
 						<div class="col-md-4">
 								<div class="single-feature">
 									<div class="icon">
-										<span class="fa fa-github"></span>
+										<span onclick = "location='https://github.com/XxZhang2017/Restaurant-E-Guide.git'" class="fa fa-github"></span>
 									</div>
 									<div class="desc text-center">
 										<h6 class="title text-uppercase">My Menu</h6>
@@ -202,9 +204,9 @@
 				<footer>
 					<div class="container">
 						<div class="footer-content d-flex justify-content-between align-items-center flex-wrap">
-							<div class="logo">
+							<!-- <div class="logo">
 								<a href="index.html"><img src="img/f-logo.png" alt=""></a>
-							</div>
+							</div> -->
 							<div class="copy-right-text">Copyright &copy; 2019  |  All rights reserved. Xinyi Zhang</div>
 							<!-- <div class="footer-social">
 								<a href="#"><i class="fa fa-facebook"></i></a>
@@ -231,5 +233,6 @@
 		<script src="js/jquery.nice-select.min.js"></script>
 		<script src="js/jquery.magnific-popup.min.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/showme.js"></script>
 	</body>
 </html>
