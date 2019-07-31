@@ -21,14 +21,28 @@
         to{opacity: 1;transform: scale(1);}
 }
 #summary{
-            /* width: REM(164);
-            height: REM(114);
-            position: absolute;
+            /* width: REM(164); */
+            /* height: REM(114); */
+            /* position: absolute;
             bottom: REM(194);
             left: 50%;
             margin-left: REM(-58); */
+        
             opacity: 0;
             animation: fadeInBig 0.5s 1s linear forwards;
             -webkit-animation: fadeInBig 0.5s 1s linear forwards;
+
 }
   
+
+.caret::after {
+  content: "";
+  animation: blink-caret .5s step-end infinite;
+  display: block;
+ 
+}
+@keyframes  blink-caret { 
+  50% {opacity: 0;} 
+}
+
+
