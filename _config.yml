@@ -1,3 +1,5 @@
 name: Xin.Y Zhang
 markdown: kramdown
 
+feed:
+  path: ./blog/atom.xml
