@@ -25,7 +25,10 @@ The popular usages in pandas are as follow:
     df.columns
     #   Return the column information
     df.describe()
-    
+
+Reconstructing sub data frames:
+    subdf = dt[['column1','column2']].head()
+
 Handling missing data:
 
     dt.isnull().any().value_counts()
