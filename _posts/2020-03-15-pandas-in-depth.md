@@ -1,5 +1,11 @@
-# Exploring Pandas in Depth
 ---
+layout: post
+title: "Xinyi Zhang, Pandas in depth"
+date: 2020-03-15
+---
+
+# Exploring Pandas in Depth
+
 
 What pandas can do ?
 It contains high-level data structures and manipulation tools designed to make data analysis fast and easy.
