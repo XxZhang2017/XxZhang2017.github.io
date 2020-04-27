@@ -20,10 +20,10 @@ hash函数选取、空间与错误率的妥协
 2. 最优的哈希函数个数
 3. 位数组大小
 
-* 参考解答 *：
-https://blog.csdn.net/jiaomeng/article/details/1495500
+[* 参考解答 *](https://blog.csdn.net/jiaomeng/article/details/1495500)
+
 
 ####应用举例：
 TBOX中的使用：
-* 参考代码 *：
-https://tboox.org/cn/2016/02/03/bloom-filter/
+
+[* 参考代码 *](https://tboox.org/cn/2016/02/03/bloom-filter/)
